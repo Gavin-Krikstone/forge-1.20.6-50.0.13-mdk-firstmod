@@ -20,7 +20,7 @@ import org.slf4j.Logger;
 @Mod(TutorialEnd.MOD_ID)
 public class TutorialEnd
 {
-    // Define mod id in a common place for everything to reference
+
     public static final String MOD_ID = "tutorialend";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
