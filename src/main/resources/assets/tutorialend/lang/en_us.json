@@ -1,4 +1,9 @@
 {
   "item.tutorialend.sapphire": "Sapphire",
-  "item.tutorialend.raw_sapphire": "Raw Sapphire"
+  "item.tutorialend.raw_sapphire": "Raw Sapphire",
+
+  "block.tutorialend.sapphire_block": "Block of Sapphire",
+
+
+  "creativetab.tutorial_tab": "Sapphire Tutorial Tab"
 }

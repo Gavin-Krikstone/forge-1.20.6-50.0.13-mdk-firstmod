@@ -1,6 +1,8 @@
 package net.gavin.tutorialend;
 
 import com.mojang.logging.LogUtils;
+import net.gavin.tutorialend.block.ModBlocks;
+import net.gavin.tutorialend.item.ModCreativeModTabs;
 import net.gavin.tutorialend.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -31,8 +33,11 @@ public class TutorialEnd
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModItems.register(modEventBus);
 
+        ModCreativeModTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
 
         modEventBus.addListener(this::commonSetup);
