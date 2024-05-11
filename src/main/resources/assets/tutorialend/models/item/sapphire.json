@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tutorialend:item/sapphire"
+    "layer0": "tutorialend:item/sapphire" //test
   }
 }
